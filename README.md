@@ -1,4 +1,6 @@
 # Laos
+# https://de.wikipedia.org/wiki/Loei_(Provinz)
+# https://th.wikipedia.org/wiki/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B8%A5%E0%B8%B2%E0%B8%A7
 <!-- wp:paragraph -->
 <p></p>
 <!-- /wp:paragraph -->
