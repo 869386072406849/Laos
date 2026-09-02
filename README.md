@@ -125,3 +125,733 @@ https://acrobat.adobe.com/id/urn:aaid:sc:AP:3de39660-6357-4792-b17e-781e3f44a837
 (ประทับตราแลเซ็น) พระยาสุริยา
 
 (ประทับตราแลเซ็น) เดลคาสเซ
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center"><a href="https://wikimedia-pea.jimdofree.com/">การไฟฟ้าส่วนภูมิภาค</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":73,"sizeSlug":"thumbnail","linkDestination":"none","align":"center"} -->
+<figure class="wp-block-image aligncenter size-thumbnail"><img src="https://biodieselproductionstation.wordpress.com/wp-content/uploads/2026/09/e0b8aae0b8b3e0b899e0b8b1e0b881e0b89be0b8a5e0b8b1e0b894e0b899e0b8b2e0b8a2e0b881e0b8a3e0b8b1e0b890e0b8a1e0b899e0b895e0b8a3e0b8b5e0b888e0b8b1e0b887e0b8abe0b8a7e0b8b1e0b894e0b980e0b8a5e0b8a2.jpg?w=150" alt="" class="wp-image-73"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p><a href="https://status.ietf.org/">สถานระบบ</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="https://biodieselproductionstation.wordpress.com/about/">About</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"right"} -->
+<p class="has-text-align-right"><a href="https://github.com/869386072406849">Github</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"right"} -->
+<p class="has-text-align-right"><a href="https://github.com/869386072406856">Github2</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:preformatted -->
+<pre class="wp-block-preformatted">คณะทํางานเฉพาะกิจวิศวกรรมอินเทอร์เน็ต (IETF) M. Kohno
+ขอความคิดเห็น: 6164 Juniper Networks, Keio University
+หมวดหมู่: Standards Track B. Nitzan
+ISSN: 2070-1721 เครือข่ายจูนิเปอร์
+                                                                 อาร์. บุช
+                                                            ย. มัตสึซากิ
+                                               ความคิดริเริ่มอินเทอร์เน็ตญี่ปุ่น
+                                                              แอล. โคลิตติ
+                                                                  กูเกิล
+                                                               ที. นาร์เทน
+                                                         ไอบีเอ็ม คอร์ปอเรชั่น
+                                                              เมษายน 2554
+
+
+           การใช้คํานําหน้า IPv6 127 บิตบนลิงก์ระหว่างเราเตอร์
+
+บทคัดย่อ
+
+   ในลิงก์ระหว่างเราเตอร์แบบจุดต่อจุดจะมีประโยชน์เพื่อความปลอดภัยและ
+   เหตุผลอื่นๆ ในการใช้คํานําหน้า IPv6 127 บิต  การปฏิบัติเช่นนี้
+   คล้ายคลึงกับการใช้คํานําหน้า 31 บิตใน IPv4  เอกสารนี้
+   ระบุแรงจูงใจและการใช้งานคํานําหน้า IPv6 127 บิต
+   ความยาวบนลิงก์ระหว่างเราเตอร์แบบจุดต่อจุด
+
+สถานะของบันทึกนี้
+
+   นี่คือเอกสาร Internet Standards Track
+
+   เอกสารนี้เป็นผลงานของ Internet Engineering Task Force
+   (ไออีทีเอฟ)  มันแสดงถึงความเห็นพ้องต้องกันของชุมชน IETF  มันมี
+   ได้รับการตรวจสอบจากสาธารณชนและได้รับการอนุมัติให้ตีพิมพ์โดย
+   กลุ่มขับเคลื่อนวิศวกรรมอินเทอร์เน็ต (IESG)  ข้อมูลเพิ่มเติมเกี่ยวกับ
+   มาตรฐานอินเทอร์เน็ตมีอยู่ใน <a href="https://www.rfc-editor.org/info/rfc5741/#section-2" class="">ส่วนที่ 2 ของ RFC 5741</a>●
+
+   ข้อมูลเกี่ยวกับสถานะปัจจุบันของเอกสารนี้, ข้อผิดพลาดใด ๆ,
+   และวิธีการให้ข้อเสนอแนะเกี่ยวกับเรื่องนี้สามารถรับได้ที่
+   <a href="https://www.rfc-editor.org/info/rfc6164" class="router-link-active router-link-exact-active">http://www.rfc-editor.org/info/rfc6164</a>●
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+โคห์โน และคณะ                ติดตามมาตรฐาน [หน้า 1]</pre>
+<!-- /wp:preformatted -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:preformatted -->
+<pre class="wp-block-preformatted">
+<a href="https://www.rfc-editor.org/info/rfc6164/" class="router-link-active router-link-exact-active whitespace-nowrap">อาร์เอฟซี 6164</a>                   คํานําหน้า IPv6 p2p เมษายน 2554
+
+
+ประกาศเกี่ยวกับลิขสิทธิ์
+
+   ลิขสิทธิ์ (c) 2011 IETF Trust และบุคคลที่ระบุว่าเป็น
+   ผู้เขียนเอกสาร  สงวนลิขสิทธิ์
+
+   เอกสารนี้อยู่ภายใต้ <a href="https://www.rfc-editor.org/bcp/bcp78">บีซีพี 78</a> และกฎหมายของ IETF Trust
+   ข้อกําหนดที่เกี่ยวข้องกับเอกสาร IETF
+   (<a href="http://trustee.ietf.org/license-info" rel="noreferrer noopener" target="_blank">http://trustee.ietf.org/license-info</a>) มีผลบังคับใช้ในวันที่
+   การเผยแพร่เอกสารนี้  โปรดตรวจสอบเอกสารเหล่านี้
+   อย่างระมัดระวังเนื่องจากพวกเขาอธิบายสิทธิและข้อจํากัดของคุณด้วยความเคารพ
+   ไปยังเอกสารนี้  ส่วนประกอบรหัสที่ดึงมาจากเอกสารนี้จะต้อง
+   รวมข้อความใบอนุญาต BSD แบบง่ายตามที่อธิบายไว้ในส่วนที่ 4 e ของ
+   บทบัญญัติทางกฎหมายของ Trust และจัดทําขึ้นโดยไม่มีการรับประกันเช่น
+   อธิบายไว้ในใบอนุญาต BSD แบบง่าย
+
+สารบัญ
+
+   <a href="https://www.rfc-editor.org/info/rfc6164/#section-1">1</a>● บทนํา.........<a href="https://www.rfc-editor.org/info/rfc6164/#page-2">2</a>
+   <a href="https://www.rfc-editor.org/info/rfc6164/#section-2">2</a>● ขอบเขตของบันทึกนี้..............................<a href="https://www.rfc-editor.org/info/rfc6164/#page-3">3</a>
+   <a href="https://www.rfc-editor.org/info/rfc6164/#section-3">3</a>● อนุสัญญาที่ใช้ในเอกสารนี้<a href="https://www.rfc-editor.org/info/rfc6164/#page-3">3</a>
+   <a href="https://www.rfc-editor.org/info/rfc6164/#section-4">4</a>● ปัญหาที่ระบุด้วยความยาวคํานําหน้า 127 บิตในอดีต<a href="https://www.rfc-editor.org/info/rfc6164/#page-3">3</a>
+   <a href="https://www.rfc-editor.org/info/rfc6164/#section-5">5</a>● เหตุผลในการใช้คํานําหน้าอีกต่อไป ...<a href="https://www.rfc-editor.org/info/rfc6164/#page-4">4</a>
+      <a href="https://www.rfc-editor.org/info/rfc6164/#section-5.1">5.1</a>● ปิงปอง ประเด็นที่........................<a href="https://www.rfc-editor.org/info/rfc6164/#page-4">4</a>
+      <a href="https://www.rfc-editor.org/info/rfc6164/#section-5.2">5.2</a>● เพื่อนบ้านแคช ความอ่อนเพลีย ปัญหา...............<a href="https://www.rfc-editor.org/info/rfc6164/#page-4">4</a>
+      <a href="https://www.rfc-editor.org/info/rfc6164/#section-5.3">5.3</a>● เหตุผลอื่น ๆ..............................<a href="https://www.rfc-editor.org/info/rfc6164/#page-5">5</a>
+   <a href="https://www.rfc-editor.org/info/rfc6164/#section-6">6</a>● ข้อแนะนํา.................................<a href="https://www.rfc-editor.org/info/rfc6164/#page-5">5</a>
+   <a href="https://www.rfc-editor.org/info/rfc6164/#section-7">7</a>● ข้อพิจารณาด้านความปลอดภัย........................<a href="https://www.rfc-editor.org/info/rfc6164/#page-6">6</a>
+   <a href="https://www.rfc-editor.org/info/rfc6164/#section-8">8</a>● ผู้ร่วมให้ข้อมูล...........................<a href="https://www.rfc-editor.org/info/rfc6164/#page-6">6</a>
+   <a href="https://www.rfc-editor.org/info/rfc6164/#section-9">9</a>● กิตติกรรมประกาศ ...........................<a href="https://www.rfc-editor.org/info/rfc6164/#page-6">6</a>
+   <a href="https://www.rfc-editor.org/info/rfc6164/#section-10">10</a>● ข้อมูลอ้างอิง....................................<a href="https://www.rfc-editor.org/info/rfc6164/#page-6">6</a>
+      <a href="https://www.rfc-editor.org/info/rfc6164/#section-10.1">10.1</a>● การอ้างอิงเชิงบรรทัดฐาน......<a href="https://www.rfc-editor.org/info/rfc6164/#page-6">6</a>
+      <a href="https://www.rfc-editor.org/info/rfc6164/#section-10.2">10.2</a>● ข้อมูลอ้างอิง ข้อมูล.........<a href="https://www.rfc-editor.org/info/rfc6164/#page-7">7</a>
+
+<a href="https://www.rfc-editor.org/info/rfc6164/#section-1" class="selflink">1</a>●  บทนํา
+
+   [<a>RFC4291</a>] ระบุว่า ID อินเตอร์เฟซสําหรับที่อยู่ผู้รับเดียวทั้งหมด,
+   ยกเว้นค่าที่ขึ้นต้นด้วยค่าไบนารี 000 จะต้องเป็น
+   ยาว 64 บิต และจะสร้างในรูปแบบ Modified EUI-64  ใน
+   นอกจากนี้ยังกําหนดที่อยู่ Anycast ของ Subnet-Router ซึ่งก็คือ
+   มีวัตถุประสงค์เพื่อใช้สําหรับแอปพลิเคชันที่โหนดต้องการ
+   สื่อสารกับเราเตอร์ชุดใดชุดหนึ่งบนลิงก์
+
+   โอเปอเรเตอร์บางตัวใช้คํานําหน้า 127 บิต แต่ก็เป็นเช่นนั้น
+   ท้อแท้เนื่องจากความขัดแย้งกับ Subnet-Router anycast [<a href="https://www.rfc-editor.org/info/rfc3627/" class="whitespace-nowrap">RFC3627</a>]
+   อย่างไรก็ตาม การใช้คํานําหน้า 64 บิตทําให้เกิดปัญหาด้านความปลอดภัย
+   มีปัญหาโดยเฉพาะกับลิงก์ระหว่างเราเตอร์ และยังมีปัญหาอื่นๆ อีก
+   เหตุผลที่ถูกต้องในการใช้คํานําหน้าที่ยาวกว่า 64 บิต โดยเฉพาะ /127
+   (ดู <a href="https://www.rfc-editor.org/info/rfc6164/#section-5">มาตรา 5</a>)
+
+
+
+โคห์โน และคณะ                ติดตามมาตรฐาน [หน้า 2]</pre>
+<!-- /wp:preformatted -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:preformatted -->
+<pre class="wp-block-preformatted">
+<a href="https://www.rfc-editor.org/info/rfc6164/" class="router-link-active router-link-exact-active whitespace-nowrap">อาร์เอฟซี 6164</a>                   คํานําหน้า IPv6 p2p เมษายน 2554
+
+
+   เอกสารนี้ให้เหตุผลสําหรับการใช้ความยาวคํานําหน้า 127 บิต,
+   ประเมินอีกครั้งว่าทําไมการทําเช่นนั้นจึงถือว่าเป็นอันตราย และ
+   ระบุวิธีการใช้คํานําหน้า /127 บนลิงก์ระหว่างเราเตอร์
+   กําหนดค่าเพื่อใช้เป็นลิงก์แบบจุดต่อจุด
+
+<a href="https://www.rfc-editor.org/info/rfc6164/#section-2" class="selflink">2</a>●  ขอบเขตของบันทึกนี้
+
+   เอกสารนี้ใช้ได้กับกรณีที่ผู้ปฏิบัติงานกําหนดเฉพาะเจาะจง
+   ที่อยู่ในลิงก์ระหว่างเราเตอร์แบบจุดต่อจุดและไม่ต้องพึ่งพา
+   ที่อยู่ลิงก์ท้องถิ่น  ผู้ประกอบการหลายรายกําหนดที่อยู่เฉพาะสําหรับ
+   วัตถุประสงค์ของการตรวจสอบเครือข่าย ความละเอียด DNS แบบย้อนกลับสําหรับ
+   traceroute และเครื่องมือการจัดการอื่น ๆ เกตเวย์ชายแดนภายนอก
+   พิธีสาร (EBGP) [<a href="https://www.rfc-editor.org/info/rfc4271/" class="whitespace-nowrap">RFC4271</a>] เซสชันการเพียร์ และอื่นๆ
+
+   เพื่อวัตถุประสงค์ของเอกสารนี้ เราเตอร์ระหว่างกันแบบจุดต่อจุด
+   ลิงก์เป็นลิงก์ที่มีเราเตอร์เพียงสองตัวและไม่มีโฮสต์ติดอยู่
+   ซึ่งอาจรวมถึงลิงก์อีเธอร์เน็ตที่กําหนดค่าเป็นแบบจุดต่อจุด
+   จุด  การเชื่อมโยงระหว่างเราเตอร์และโฮสต์หรือลิงก์ที่ทั้งสอง
+   เราเตอร์และโฮสต์ที่แนบมาอยู่นอกขอบเขตของเอกสารนี้
+
+   คําแนะนําในเอกสารนี้ใช้ไม่ได้กับลิงก์ท้องถิ่น
+   ขอบเขตที่อยู่
+
+<a href="https://www.rfc-editor.org/info/rfc6164/#section-3" class="selflink">3</a>●  อนุสัญญาที่ใช้ในเอกสารนี้
+
+   คําสําคัญ "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT",
+   "ควร", "ไม่ควร", "แนะนํา", "พฤษภาคม" และ "ไม่บังคับ" ในเรื่องนี้
+   เอกสารจะต้องตีความตามที่อธิบายไว้ใน <a href="https://www.rfc-editor.org/info/rfc2119/" class="whitespace-nowrap">อาร์เอฟซี 2119</a> [<a href="https://www.rfc-editor.org/info/rfc2119/" class="whitespace-nowrap">อาร์เอฟซี2119</a>]
+
+<a href="https://www.rfc-editor.org/info/rfc6164/#section-4" class="selflink">4</a>●  ปัญหาที่ระบุด้วยความยาวคํานําหน้า 127 บิตในอดีต
+
+   [<a>RFC3627</a>] ไม่สนับสนุนการใช้ความยาวคํานําหน้า 127 บิตเนื่องจาก
+   ขัดแย้งกับที่อยู่ anycast ของ Subnet-Router ในขณะที่ระบุ
+   ยูทิลิตี้ของ Subnet-Router anycast สําหรับลิงก์แบบจุดต่อจุดคือ
+   น่าสงสัย
+
+   [<a>RFC5375</a>] ยังบอกอีกว่าการใช้ความยาวคํานําหน้า 127 บิตไม่ถูกต้อง
+   และควรท้อแท้อย่างยิ่งแต่เหตุผลที่ระบุไว้ในการทํา
+   ทั้งนี้เพื่อให้เป็นไปตาม [<a href="https://www.rfc-editor.org/info/rfc3627/" class="whitespace-nowrap">RFC3627</a>]
+
+   แม้ว่าการวิเคราะห์ใน RFC จะถูกต้อง แต่ประสบการณ์การปฏิบัติงาน
+   ด้วย IPv6 แสดงให้เห็นว่าสามารถใช้คํานําหน้า /127 ได้สําเร็จ
+
+
+
+
+
+
+
+
+
+โคห์โน และคณะ                ติดตามมาตรฐาน [หน้า 3]</pre>
+<!-- /wp:preformatted -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:preformatted -->
+<pre class="wp-block-preformatted">
+<a href="https://www.rfc-editor.org/info/rfc6164/" class="router-link-active router-link-exact-active whitespace-nowrap">อาร์เอฟซี 6164</a>                   คํานําหน้า IPv6 p2p เมษายน 2554
+
+
+<a href="https://www.rfc-editor.org/info/rfc6164/#section-5" class="selflink">5</a>●  เหตุผลในการใช้คํานําหน้าอีกต่อไป
+
+   มีเหตุผลที่ผู้ให้บริการเครือข่ายใช้ความยาวคํานําหน้า IPv6 มากกว่า
+   มากกว่า 64 โดยเฉพาะ 127 สําหรับลิงก์ระหว่างเราเตอร์แบบจุดต่อจุด
+
+<a href="https://www.rfc-editor.org/info/rfc6164/#section-5.1" class="selflink">5.1</a>●  ประเด็นปิงปอง
+
+   การวนซ้ําการส่งต่ออาจเกิดขึ้นบนลิงก์แบบจุดต่อจุดที่มีคํานําหน้า
+   ความยาวสั้นกว่า 127  สิ่งนี้ไม่ส่งผลกระทบต่ออินเทอร์เฟซที่
+   ดําเนินการ Neighbor Discovery แต่มีลิงก์แบบจุดต่อจุดซึ่งใช้
+   ห้ามใช้สื่อเช่น Synchronous Optical Network (SONET)
+   การค้นพบเพื่อนบ้าน  ด้วยเหตุนี้ การกําหนดค่าความยาวคํานําหน้าใดๆ
+   สั้นกว่า 127 บิตบนลิงก์เหล่านี้สามารถสร้างเวกเตอร์การโจมตีได้
+   เครือข่าย
+
+   ปัญหาปิงปองเกิดขึ้นในกรณีของ IPv4 เช่นกัน  แต่เนื่องจาก
+   การขาดแคลนพื้นที่ที่อยู่ IPv4 แนวทางปฏิบัติในปัจจุบันคือการกําหนด
+   ความยาวคํานําหน้ายาว เช่น /30 หรือ /31 [<a href="https://www.rfc-editor.org/info/rfc3021/" class="whitespace-nowrap">RFC3021</a>] แบบจุดต่อจุด
+   ลิงค์; ดังนั้นปัญหาจึงไม่เกิดขึ้นข้างหน้า
+
+   ข้อมูลจําเพาะ ICMPv6 ล่าสุด [<a href="https://www.rfc-editor.org/info/rfc4443/" class="whitespace-nowrap">RFC4443</a>] บรรเทาปัญหานี้โดย
+   การระบุว่าเราเตอร์ที่ได้รับแพ็กเก็ตบนลิงก์แบบจุดต่อจุด
+   โดยที่แพ็กเก็ตถูกกําหนดไปยังที่อยู่ภายในเครือข่ายย่อยที่กําหนด
+   ไปยังลิงก์เดียวกันนั้น (นอกเหนือจากเราเตอร์ที่รับเอง
+   ที่อยู่) ต้องไม่ส่งต่อแพ็กเก็ตกลับบนลิงก์นั้น  แทน,
+   ควรสร้างข้อความ ICMPv6 Destination Unreachable (รหัส 3)
+   ในการตอบสนอง  การตรวจสอบนี้อยู่บนเส้นทางการประมวลผลการส่งต่อ ดังนั้น
+   อาจมีผลกระทบต่อประสิทธิภาพ
+
+<a href="https://www.rfc-editor.org/info/rfc6164/#section-5.2" class="selflink">5.2</a>●  ปัญหาความเหนื่อยล้าของแคชเพื่อนบ้าน
+
+   ตามที่อธิบายไว้ใน <a href="https://www.rfc-editor.org/info/rfc3756/#section-4.3.2" class="">ส่วนที่ 4.3.2 ของ [RFC3756]</a>, การใช้งานของ 64 บิต
+   ความยาวคํานําหน้าบนลิงก์ระหว่างเราเตอร์ที่ใช้ Neighbor Discovery
+   (เช่น อีเธอร์เน็ต) อาจอนุญาตให้มีการโจมตีแบบปฏิเสธการให้บริการได้
+   เราเตอร์บนลิงค์
+
+   พิจารณาการเชื่อมโยงอีเธอร์เน็ตระหว่างเราเตอร์สองตัว A และ B ซึ่งก
+   /64 กําหนดเครือข่ายย่อยแล้ว  แพ็กเก็ตที่ส่งไปยังที่อยู่ใด ๆ บน
+   /64 (ยกเว้นที่อยู่ของ A และ B) จะทําให้เราเตอร์
+   พยายามส่งต่อเพื่อสร้างรายการแคชใหม่ใน INCOMPLETE
+   สถานะ ส่งข้อความเชิญชวนเพื่อนบ้านบนลิงก์ เริ่ม
+   ส่งตัวจับเวลาอีกครั้งและอื่น ๆ [<a href="https://www.rfc-editor.org/info/rfc4861/" class="whitespace-nowrap">อาร์เอฟซี4861</a>]
+
+   โดยการส่งแพ็กเก็ตอย่างต่อเนื่องไปยังจํานวนมาก
+   2^64 - 3 ที่อยู่ที่ไม่ได้กําหนดบนลิงค์ (หนึ่งอันสําหรับเราเตอร์แต่ละตัวและ
+   หนึ่งรายการสําหรับ Subnet-Router anycast) ผู้โจมตีสามารถสร้างจํานวนมากได้
+   ของรายการแคชเพื่อนบ้านและทําให้หนึ่งในเราเตอร์ส่ง
+   แพ็กเก็ต Neighbor Solicitation จํานวนมากที่ไม่มีวันได้รับ
+
+
+
+โคห์โน และคณะ                ติดตามมาตรฐาน [หน้า 4]</pre>
+<!-- /wp:preformatted -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:preformatted -->
+<pre class="wp-block-preformatted">
+<a href="https://www.rfc-editor.org/info/rfc6164/" class="router-link-active router-link-exact-active whitespace-nowrap">อาร์เอฟซี 6164</a>                   คํานําหน้า IPv6 p2p เมษายน 2554
+
+
+   การตอบกลับจึงใช้หน่วยความจําและการประมวลผลจํานวนมาก
+   ทรัพยากร  การส่งแพ็กเก็ตไปยังหนึ่งในที่อยู่ 2^24 บน
+   ลิงก์ที่มีที่อยู่มัลติคาสต์ Solicited-Node เดียวกันกับหนึ่งใน
+   เราเตอร์ยังทําให้เหยื่อต้องใช้การประมวลผลจํานวนมาก
+   เวลาทิ้งข้อความเชิญชวนเพื่อนบ้านที่ไร้ประโยชน์
+
+   การดําเนินการอย่างระมัดระวังและการจํากัดอัตราสามารถจํากัดผลกระทบดังกล่าวได้
+   การโจมตี แต่ไม่น่าจะทําให้เป็นกลางได้อย่างสมบูรณ์  อัตรา-
+   การจํากัดข้อความเชิญชวนเพื่อนบ้านจะลดการใช้งาน CPU และ
+   การปฏิบัติตามคําแนะนําการเก็บขยะใน [<a href="https://www.rfc-editor.org/info/rfc4861/" class="whitespace-nowrap">อาร์เอฟซี4861</a>] จะ
+   รักษาความสามารถในการเข้าถึง แต่หากลิงก์ล่มและแคชข้างเคียง
+   รายการหมดอายุในขณะที่การโจมตียังดําเนินอยู่ การรับส่งข้อมูลที่ถูกต้องตามกฎหมาย
+   (เช่น เซสชัน BGP) ผ่านลิงก์อาจไม่เป็นเช่นนั้น
+   สร้างใหม่เนื่องจากเราเตอร์ไม่สามารถแก้ไข IPv6 ของกันและกันได้
+   ที่อยู่ไปยังที่อยู่ชั้นลิงก์
+
+   การโจมตีนี้ไม่ได้เฉพาะเจาะจงกับลิงก์แบบจุดต่อจุด แต่เป็น
+   เป็นอันตรายอย่างยิ่งในกรณีของการเชื่อมโยงแกนหลักแบบจุดต่อจุด
+   ซึ่งอาจขนการจราจรจํานวนมากไปยังจุดหมายปลายทางหลายแห่ง
+   ระยะทางไกล
+
+   ในขณะที่มีหลายวิธีในการบรรเทาปัญหาประเภทนี้
+   การกําหนด /127 ซับเน็ตจะกําจัดมันออกไปโดยสิ้นเชิง
+
+<a href="https://www.rfc-editor.org/info/rfc6164/#section-5.3" class="selflink">5.3</a>●  เหตุผลอื่นๆ
+
+   แม้ว่าการพิจารณาการอนุรักษ์พื้นที่ที่อยู่จะมีความสําคัญน้อยกว่าก็ตาม
+   สําหรับ IPv6 มากกว่าใน IPv4 ผู้ให้บริการบางรายไม่ต้องการกําหนด
+   /64s ไปยังลิงก์แบบจุดต่อจุดแต่ละรายการ  แต่พวกเขาอาจจะสามารถ
+   เพื่อนับจํานวนลิงก์แบบจุดต่อจุดทั้งหมดจาก /64 หรือ a เดียว
+   จํานวนน้อยของ/64s
+
+<a href="https://www.rfc-editor.org/info/rfc6164/#section-6" class="selflink">6</a>●  คําแนะนํา
+
+   เราเตอร์ต้องรองรับการกําหนดคํานําหน้า /127 บนจุดต่อ-
+   ชี้ลิงก์ระหว่างเราเตอร์  เราเตอร์จะต้องปิดการใช้งาน Subnet-Router anycast
+   สําหรับคํานําหน้าเมื่อใช้คํานําหน้า /127
+
+   เมื่อกําหนดและใช้คํานําหน้า /127 ใด ๆ ต่อไปนี้
+   ข้อควรพิจารณาใช้  ที่อยู่บางแห่งมีความหมายพิเศษใน
+   ที่อยู่เฉพาะที่สอดคล้องกับที่อยู่ Anycast ที่สงวนไว้
+   เมื่อกําหนดคํานําหน้า (และที่อยู่) ให้กับลิงก์ ควรระมัดระวัง
+   ดําเนินการเพื่อให้แน่ใจว่าที่อยู่ที่สงวนไว้สําหรับวัตถุประสงค์ดังกล่าวไม่ได้
+   กําหนดและใช้เป็นที่อยู่ผู้รับเดียวโดยไม่ได้ตั้งใจ  มิฉะนั้น,
+   โหนดอาจได้รับแพ็กเก็ตที่ไม่ได้ตั้งใจจะได้รับ
+   โดยเฉพาะอย่างยิ่ง สมมติว่าจะมีการเชื่อมโยงแบบจุดต่อจุดจํานวนหนึ่ง
+   หมายเลขออกจากคํานําหน้า /64 เดียว:
+
+
+
+
+โคห์โน และคณะ                ติดตามมาตรฐาน [หน้า 5]</pre>
+<!-- /wp:preformatted -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:preformatted -->
+<pre class="wp-block-preformatted">
+<a href="https://www.rfc-editor.org/info/rfc6164/" class="router-link-active router-link-exact-active whitespace-nowrap">อาร์เอฟซี 6164</a>                   คํานําหน้า IPv6 p2p เมษายน 2554
+
+
+   (a) ที่อยู่ที่มีศูนย์ทั้งหมดใน 64 บิตขวาสุดไม่ควรอยู่
+        กําหนดเป็นที่อยู่แบบผู้รับเดียวเพื่อหลีกเลี่ยงการชนกับ
+        ที่อยู่ Anycast ของ Subnet-Router [<a href="https://www.rfc-editor.org/info/rfc4291/" class="whitespace-nowrap">RFC4291</a>]
+
+   (b) ที่อยู่ที่กําหนด 64 บิตขวาสุด
+        ค่าสูงสุด 128 ค่า (เช่น fffff:ffff:ffff:ff7f ถึง ffff:ffff:ffff:
+        ffff) ไม่ควรใช้เป็นที่อยู่แบบผู้รับเดียว เพื่อหลีกเลี่ยง
+        การชนกับที่อยู่ anycast ของเครือข่ายย่อยที่สงวนไว้ [<a href="https://www.rfc-editor.org/info/rfc2526/" class="whitespace-nowrap">อาร์เอฟซี2526</a>]
+
+<a href="https://www.rfc-editor.org/info/rfc6164/#section-7" class="selflink">7</a>●  ข้อควรพิจารณาด้านความปลอดภัย
+
+   เอกสารนี้ไม่มีข้อพิจารณาด้านความปลอดภัยโดยธรรมชาติ  มัน
+   หารือเกี่ยวกับปัญหาที่เกี่ยวข้องกับความปลอดภัยและเสนอแนวทางแก้ไข
+
+<a href="https://www.rfc-editor.org/info/rfc6164/#section-8" class="selflink">8</a>●  ผู้ร่วมให้ข้อมูล
+
+      คริส มอร์โรว์, morrowc@google.com
+
+      เปกก้า ซาโวลา, pekkas@netcore.fi
+
+      เรมี เดเปรส, remi.despres@free.fr
+
+      เซอิจิ คาวามูระ, kawamucho@mesh.ad.jp
+
+<a href="https://www.rfc-editor.org/info/rfc6164/#section-9" class="selflink">9</a>●  กิตติกรรมประกาศ
+
+   ผู้เขียนขอขอบคุณ รอน โบนิก้า ปราโมทย์ ศรีนิวาสัน,
+   โอลิเวียร์ โวทริน, โทโมยะ โยชิดะ, วอร์เรน กุมาริ และทัตสึยะ จินเม
+   สําหรับข้อมูลที่เป็นประโยชน์ของพวกเขา
+
+<a href="https://www.rfc-editor.org/info/rfc6164/#section-10" class="selflink">10</a>●  การอ้างอิง
+
+<a href="https://www.rfc-editor.org/info/rfc6164/#section-10.1" class="selflink">10.1</a>●  การอ้างอิงเชิงบรรทัดฐาน
+
+   [<a>อาร์เอฟซี2119</a>] Bradner, S., "คําสําคัญสําหรับใช้ใน RFC เพื่อระบุ
+              ระดับความต้องการ", <a href="https://www.rfc-editor.org/bcp/bcp14">บีซีพี 14</a>, <a href="https://www.rfc-editor.org/info/rfc2119/" class="whitespace-nowrap">อาร์เอฟซี 2119</a>, มีนาคม 1997
+
+   [<a>RFC4291</a>] Hinden, R. และ S. Deering, "ที่อยู่ IP เวอร์ชัน 6
+              สถาปัตยกรรม", <a href="https://www.rfc-editor.org/info/rfc4291/" class="whitespace-nowrap">อาร์เอฟซี 4291</a>, กุมภาพันธ์ 2549
+
+   [<a>อาร์เอฟซี4861</a>] Narten, T., Nordmark, E., Simpson, W. และ H. Soliman,
+              "Neighbor Discovery สําหรับ IP เวอร์ชัน 6 (IPv6)", <a href="https://www.rfc-editor.org/info/rfc4861/" class="whitespace-nowrap">อาร์เอฟซี 4861</a>,
+              กันยายน 2550
+
+
+
+
+
+
+
+
+โคห์โน และคณะ                ติดตามมาตรฐาน [หน้า 6]</pre>
+<!-- /wp:preformatted -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:preformatted -->
+<pre class="wp-block-preformatted">
+<a href="https://www.rfc-editor.org/info/rfc6164/" class="router-link-active router-link-exact-active whitespace-nowrap">อาร์เอฟซี 6164</a>                   คํานําหน้า IPv6 p2p เมษายน 2554
+
+
+<a href="https://www.rfc-editor.org/info/rfc6164/#section-10.2" class="selflink">10.2</a>●  ข้อมูลอ้างอิง
+
+   [<a>อาร์เอฟซี2526</a>] Johnson, D. และ S. Deering, "สงวน IPv6 Subnet Anycast
+              ที่อยู่", <a href="https://www.rfc-editor.org/info/rfc2526/" class="whitespace-nowrap">อาร์เอฟซี 2526</a>, มีนาคม 1999
+
+   [<a>RFC3021</a>] Retana, A., White, R., Fuller, V. และ D. McPherson,
+              "การใช้คํานําหน้า 31 บิตบนลิงก์แบบจุดต่อจุด IPv4"
+              <a href="https://www.rfc-editor.org/info/rfc3021/" class="whitespace-nowrap">อาร์เอฟซี 3021</a>, ธันวาคม 2543
+
+   [<a>RFC3627</a>] Savola, P., "การใช้ /127 คํานําหน้าระหว่างเราเตอร์
+              ถือว่าเป็นอันตราย" <a href="https://www.rfc-editor.org/info/rfc3627/" class="whitespace-nowrap">อาร์เอฟซี 3627</a>, กันยายน 2546
+
+   [<a>RFC3756</a>] Nikander, P., Ed., Kempf, J. และ E. Nordmark, "IPv6
+              Neighbor Discovery (ND) ไว้วางใจโมเดลและภัยคุกคาม",
+              <a href="https://www.rfc-editor.org/info/rfc3756/" class="whitespace-nowrap">อาร์เอฟซี 3756</a>, พฤษภาคม 2547
+
+   [<a>RFC4271</a>] Rekhter, Y., Ed., Li, T., Ed. และ S. Hares, Ed., "A
+              พิธีสารเกตเวย์ชายแดน 4 (BGP-4)", <a href="https://www.rfc-editor.org/info/rfc4271/" class="whitespace-nowrap">อาร์เอฟซี 4271</a>,
+              มกราคม 2549
+
+   [<a>RFC4443</a>] Conta, A., Deering, S. และ M. Gupta, Ed., "อินเทอร์เน็ต
+              Control Message Protocol (ICMPv6) สําหรับอินเทอร์เน็ต
+              ข้อมูลจําเพาะโปรโตคอลเวอร์ชัน 6 (IPv6)" <a href="https://www.rfc-editor.org/info/rfc4443/" class="whitespace-nowrap">อาร์เอฟซี 4443</a>,
+              มีนาคม 2549
+
+   [<a>RFC5375</a>] Van de Velde, G., Popoviciu, C., Chown, T., Bonness, O.,
+              และ C. Hahn "การกําหนดที่อยู่ IPv6 Unicast
+              ข้อพิจารณา", <a href="https://www.rfc-editor.org/info/rfc5375/" class="whitespace-nowrap">อาร์เอฟซี 5375</a>, ธันวาคม 2551
+
+ที่อยู่ของผู้เขียน
+
+   มิยะ โคห์โนะ
+   จูนิเปอร์ เน็ตเวิร์กส์ มหาวิทยาลัยเคโอ
+   ชินจูกุพาร์คทาวเวอร์, 3-7-1 นิชิชินจูกุ
+   ชินจูกุ-คุ โตเกียว 163-1035
+   ญี่ปุ่น
+
+   อีเมล์: mkohno@juniper.net
+
+
+   เบคก้า นิทซาน
+   จูนิเปอร์ เน็ตเวิร์กส์
+   1194 ถนนมาทิลดาเหนือ
+   ซันนีเวล แคลิฟอร์เนีย 94089
+   สหรัฐอเมริกา
+
+   อีเมล์: nitzan@juniper.net
+
+
+
+
+โคห์โน และคณะ                ติดตามมาตรฐาน [หน้า 7]</pre>
+<!-- /wp:preformatted -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:preformatted -->
+<pre class="wp-block-preformatted">
+<a href="https://www.rfc-editor.org/info/rfc6164/" class="router-link-active router-link-exact-active whitespace-nowrap">อาร์เอฟซี 6164</a>                   คํานําหน้า IPv6 p2p เมษายน 2554
+
+
+   แรนดี้ บุช
+   ความคิดริเริ่มอินเทอร์เน็ตญี่ปุ่น
+   5147 คริสตัลสปริงส์
+   เกาะเบนบริดจ์ วอชิงตัน 98110
+   สหรัฐอเมริกา
+
+   อีเมล์: randy@psg.com
+
+
+   โยชิโนบุ มัตสึซากิ
+   ความคิดริเริ่มอินเทอร์เน็ตญี่ปุ่น
+   อาคารจินโบโช มิตซุย
+   1-105 คันดะ จินโบโช โตเกียว 101-0051
+   ญี่ปุ่น
+
+   อีเมล์: maz@iij.ad.jp
+
+
+   ลอเรนโซ โคลิตติ
+   กูเกิล
+   1600 อัฒจันทร์ปาร์คเวย์
+   เมาน์เทนวิว แคลิฟอร์เนีย 94043
+   สหรัฐอเมริกา
+
+   อีเมล์: lorenzo@google.com
+
+
+   โธมัส นาร์เทน
+   ไอบีเอ็ม คอร์ปอเรชั่น
+   3039 ถนนคอร์นวอลลิส
+   ตู้ ปณ.12195
+   Research Triangle Park, NC 27709-2195
+   สหรัฐอเมริกา
+
+   อีเมล์: narten@us.ibm.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+โคห์โน และคณะ                ติดตามมาตรฐาน [หน้า 8]</pre>
+<!-- /wp:preformatted -->
+
+<!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">IETF 127 San Francisco</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"className":"h4 fst-italic"} -->
+<p class="h4 fst-italic">14 Nov 2026 - 20 Nov 2026</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"className":"lead fw-normal u-max-text-width"} -->
+<p class="lead fw-normal u-max-text-width">IETF 127 starts Saturday 14 November and runs through Friday afternoon, 20 November.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The&nbsp;IETF Hackathon&nbsp;and&nbsp;<a href="https://www.ietf.org/meeting/code-sprint/">IETF Codesprint</a>&nbsp;take place on the weekend. Events to help&nbsp;<a href="https://www.ietf.org/meeting/new-participants/">new participants</a>&nbsp;get the most out of IETF meetings begin on Sunday afternoon. Participants should plan their travel accordingly. An&nbsp;<a href="https://www.ietf.org/meeting/guide-ietf-meetings/">introduction to IETF meetings</a>&nbsp;provides an overview of how to prepare for and get the most out of sessions all week.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"className":"h4"} -->
+<h2 class="wp-block-heading h4">Key details</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><a href="https://registration.ietf.org/127/">Register</a>&nbsp;<a href="https://www.ietf.org/meeting/registration-fee-waivers/">Registration Fee Waivers</a>&nbsp;<a href="https://www.ietf.org/meeting/terms-and-conditions/">Terms and conditions</a>&nbsp;<a href="https://registration.ietf.org/127/participants/">Participant List</a>&nbsp;<a href="https://www.ietf.org/meeting/visas/">Visa and LOI information</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Agenda&nbsp;<a href="https://www.ietf.org/meeting/preparation/">Preparing for the meeting</a>&nbsp;<a href="https://datatracker.ietf.org/meeting/127/important-dates/">Important dates and deadlines</a>&nbsp;<a href="https://www.ietf.org/meeting/new-participants/">Information for new participants</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="https://www.ietf.org/meeting/issues/">Reporting issues during the meeting</a>&nbsp;Meeting Mailing Lists&nbsp;<a href="https://www.ietf.org/contact/ombudsteam/">Reporting Potential Harassment</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="https://www.ietf.org/meeting/127/hotel/">Venue and Hotels</a>&nbsp;<a href="https://www.ietf.org/meeting/childcare/">Childcare</a>&nbsp;Floor plans&nbsp;<a href="https://wiki.ietf.org/en/meeting/127">Participant wiki (local information)</a>&nbsp;<a href="https://www.ietf.org/meeting/technology/">Meeting network and technology</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="https://www.ietf.org/meeting/code-sprint/">Code Sprint</a>&nbsp;<a href="https://www.ietf.org/meeting/hackathons/127-hackathon/">Hackathon</a>&nbsp;Public Side Meetings</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"className":"h4"} -->
+<h2 class="wp-block-heading h4">Meeting venue information</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Venue</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Hilton San Francisco Union Square</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>San Francisco, California</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"className":"h4 ps-3"} -->
+<h2 class="wp-block-heading h4 ps-3">Sponsors</h2>
+<!-- /wp:heading -->
+
+<!-- wp:image {"linkDestination":"custom"} -->
+<figure class="wp-block-image"><a href="https://www.verisign.com/"><img src="https://www.ietf.org/media/images/VRSN_logo_vertical_RGB_Mn1Tz8S.max-200x149.jpg" alt="Verisign"/></a></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3,"className":"h5 mb-3"} -->
+<h3 class="wp-block-heading h5 mb-3">Host</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list {"className":"list-unstyled"} -->
+<ul class="wp-block-list list-unstyled"><!-- wp:list-item -->
+<li></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:image {"linkDestination":"custom"} -->
+<figure class="wp-block-image"><a href="https://www.akamai.com/"><img src="https://www.ietf.org/media/images/akamai-small.max-120x74.jpg" alt="Akamai"/></a></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"linkDestination":"custom"} -->
+<figure class="wp-block-image"><a href="http://www.huawei.com/en/"><img src="https://www.ietf.org/media/images/huawei-horizontal.max-120x74.png" alt="Huawei"/></a></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3,"className":"h5 mb-3"} -->
+<h3 class="wp-block-heading h5 mb-3">Gold Diversity and Inclusivity</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list {"className":"list-unstyled"} -->
+<ul class="wp-block-list list-unstyled"><!-- wp:list-item -->
+<li></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:image {"linkDestination":"custom"} -->
+<figure class="wp-block-image"><a href="https://www.comcast.com/"><img src="https://www.ietf.org/media/images/comcast_7qsK6iU.max-120x74.png" alt="Comcast"/></a></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"linkDestination":"custom"} -->
+<figure class="wp-block-image"><a href="https://www.icann.org/"><img src="https://www.ietf.org/media/images/ICANN_Primary_Logo_CMYK_nOEyywh.max-120x74.jpg" alt="ICANN"/></a></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3,"className":"h5 mb-3"} -->
+<h3 class="wp-block-heading h5 mb-3">Bronze Diversity and Inclusion</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list {"className":"list-unstyled"} -->
+<ul class="wp-block-list list-unstyled"><!-- wp:list-item -->
+<li></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:image {"linkDestination":"custom"} -->
+<figure class="wp-block-image"><a href="https://www.denic.de/en/"><img src="https://www.ietf.org/media/images/Logo_DENIC.max-120x74.png" alt="denic"/></a></figure>
+<!-- /wp:image -->
+
+<!-- wp:image {"linkDestination":"custom"} -->
+<figure class="wp-block-image"><a href="https://www.nominet.uk/"><img src="https://www.ietf.org/media/images/Nominet_Logo_2.max-120x74.png" alt="Nominet"/></a></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3,"className":"h5 mb-3"} -->
+<h3 class="wp-block-heading h5 mb-3">Bronze Open Internet</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list {"className":"list-unstyled"} -->
+<ul class="wp-block-list list-unstyled"><!-- wp:list-item -->
+<li></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:image {"linkDestination":"custom"} -->
+<figure class="wp-block-image"><a href="https://www.icann.org/"><img src="https://www.ietf.org/media/images/ICANN_Primary_Logo_CMYK_nOEyywh.max-120x74.jpg" alt="ICANN"/></a></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3,"className":"h5 mb-3"} -->
+<h3 class="wp-block-heading h5 mb-3">Bronze Running Code</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list {"className":"list-unstyled"} -->
+<ul class="wp-block-list list-unstyled"><!-- wp:list-item -->
+<li></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:image {"linkDestination":"custom"} -->
+<figure class="wp-block-image"><a href="http://www.zte.com.cn/en/"><img src="https://www.ietf.org/media/images/zte-smaller.max-120x74.png" alt="ZTE"/></a></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":3,"className":"h5 mb-3"} -->
+<h3 class="wp-block-heading h5 mb-3">Bronze Sustainability</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list {"className":"list-unstyled"} -->
+<ul class="wp-block-list list-unstyled"><!-- wp:list-item -->
+<li></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading {"className":"h5 mb-3"} -->
+<h2 class="wp-block-heading h5 mb-3"><a class="text-dark" href="https://www.ietf.org/meeting/">Meetings</a></h2>
+<!-- /wp:heading -->
+
+<!-- wp:list {"className":"list-unstyled"} -->
+<ul class="wp-block-list list-unstyled"><!-- wp:list-item -->
+<li><a href="https://www.ietf.org/meeting/127/">IETF 127 San Francisco</a></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><a class="text-dark" href="https://www.ietf.org/meeting/128/">IETF 128 Kuala Lumpur</a></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><a class="text-dark" href="https://www.ietf.org/meeting/upcoming/">Upcoming meetings</a></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><a class="text-dark" href="https://www.ietf.org/meeting/past/">Past meetings</a></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><a class="text-dark" href="https://www.ietf.org/meeting/interim/">Interim meetings</a></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><a class="text-dark" href="https://www.ietf.org/meeting/hackathons/">IETF Hackathons</a></li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><a class="text-dark" href="https://www.ietf.org/meeting/code-sprint/">Code Sprint</a></li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph {"align":"right"} -->
+<p class="has-text-align-right"></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":75,"sizeSlug":"large","linkDestination":"custom","align":"center"} -->
+<figure class="wp-block-image aligncenter size-large"><a href="https://en.wikipedia.org/wiki/Lalamove"><img src="https://biodieselproductionstation.wordpress.com/wp-content/uploads/2026/09/lalamove_logo6059326142585023571.png?w=500" alt="" class="wp-image-75"/></a></figure>
+<!-- /wp:image -->
