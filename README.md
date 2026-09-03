@@ -1,4 +1,6 @@
 ฝั่งเชียงคาน
+<img width="1600" height="1131" alt="10250" src="https://github.com/user-attachments/assets/662931ab-bee5-4e95-8004-ac5055c8a5fa" />
+# https://www.mfa.go.th/th/index
 # Laos
 # https://de.wikipedia.org/wiki/Loei_(Provinz)
 # https://th.wikipedia.org/wiki/%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B8%A5%E0%B8%B2%E0%B8%A7
